@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wiki Spiderweb</string>
+    <string name="search_hint">Search Wiki Spiderweb</string>
+
+	<string name="help_file">help.html</string>
+ 
+    <string name="no_license">This application appears to be not licensed. If you actually did obtain a license please contact the author.</string>
+    <string name="licensing_error">A problem with the licensing server prevents the validation of your license. Please try again later.\nIf the problem persists you should contact the author.\nLicensing error: %1$s</string>
+    <string name="trial_message">This is the demo version of Wiki Spiderweb.\n\nSome functionality is only available in the paid version.\n\nIf you like this application, please check the Android Market to upgrade.</string>
+    <string name="trial_function">This functionality is not available in the demo version.</string>
+    <string name="dont_publish_message">Do NOT publish this version.</string>
+    <string name="new_version_message">Features in version 3.0\n\n- Free version has full functionality.\n- Use https to connect to Wikipedia.\n- Simplify UI.\nFeatures in version 2.1:\n\n- Limit number of images in preferences.\n\nFeatures in version 2.0:\n\n- Show images from Wikipedia as nodes.\n- Show preview images in search results.\n- Visited connections turn blue.\n\nFeatures in version 1.5:\n\n- Double tap the empty space to zoom until all nodes fit on the screen.\n- Improved zooming gesture to avoid occasional jumps.\n- Fixed broken help.\n- Fixed selecting nodes from wikipage preview links.</string>
+
+ 	<string name="ok">OK</string>
+
+	<string name="loading">Loading %s ...</string>
+	<string name="failedLoading">Failed to load the page.\nPlease check your connection and try again later.</string>
+    
+ 	<string name="menuSettings">Settings</string>
+    <string name="menuHelp">Help</string>
+    <string name="menuGoto">Search</string>
+    <string name="menuSave">Save</string>
+    <string name="menuLoad">Load</string>
+    <string name="menuManage">Manage</string>
+
+    <string name="searchResultInitial">Enter the title you want to search for.</string>
+    <string name="searchResultStarted">Searching ...</string>
+    <string name="searchResult0">The search returned no results.</string>
+    <string name="searchResult1">The search returned 1 matching result.</string>
+    <string name="searchResultN">The search returned %d matching results.</string>
+    <string name="searchResultError">Could not get results.</string>
+
+ 	<string name="saveGraphOk">Save</string>
+
+    <string name="pref_useLinkServer">pref_useLinkServer</string>
+    <string name="pref_language">pref_language</string>
+    <string name="pref_useCustomLanguage">pref_useCustomLanguage</string>
+    <string name="pref_customLanguage">pref_customLanguage</string>
+    <string name="pref_startPage">pref_startPage</string>
+    <string name="pref_rememberLastPage">pref_rememberLastPage</string>
+    <string name="pref_maxChildrenCount">pref_maxChildrenCount</string>
+    <string name="pref_maxImageCount">pref_maxImageCount</string>
+    <string name="pref_keepOpen">pref_keepOpen</string>
+    <string name="pref_textSize">pref_textSize</string>
+    <string name="pref_showImages">pref_showImages</string>
+    <string name="pref_vibrate">pref_vibrate</string>
+    <string name="pref_simulationTimeout">pref_simulationTimeout</string>
+    <string name="pref_repulsionLevel">pref_repulsionLevel</string>
+    <string name="pref_attractionLevel">pref_attractionLevel</string>
+    <string name="pref_dampingLevel">pref_dampingLevel</string>
+    <string name="pref_speedLevel">pref_speedLevel</string>
+    <string name="pref_acceptedVersion">pref_acceptedVersion</string>
+
+    <string name="default_language">en</string>
+    <string name="default_startPage">Wikipedia</string>
+    <string name="helpFile">help.html</string>
+
+	<string name="prefCategoryWikipedia">Wikipedia</string>
+	<string name="prefTitleLinkServer">Link Server</string>
+	<string name="prefSummaryLinkServer">Use link server instead of analyzing Wikipedia pages.</string>
+	<string name="prefTitleLanguage">Language</string>
+	<string name="prefSummaryLanguage">The language of the Wikipedia to search.</string>
+	<string name="prefTitleUseCustomLanguage">Use Custom Language</string>
+	<string name="prefSummaryUseCustomLanguage">Enables the custom language code, which will override the \'Language\' setting. This allows to any Wikipedia language even if they are not listed in the \'Language\' setting.</string>
+	<string name="prefTitleCustomLanguage">Custom Language</string>
+	<string name="prefSummaryCustomLanguage">The custom language code of the Wikipedia to search. Only used if \'Use Custom Language\' is selected.</string>
+	<string name="prefTitleStartPage">Start Page</string>
+	<string name="prefSummaryStartPage">The page opened when you start this application.</string>
+	<string name="prefTitleRememberLastPage">Remember Last Page</string>
+	<string name="prefSummaryRememberLastPage">Remember the last selected page as start page.</string>
+
+	<string name="prefCategoryHistory">Links</string>
+	<string name="prefTitleMaxChildrenCount">Maximal Link Count</string>
+	<string name="prefSummaryMaxChildrenCount">The maximal number of links of a node. If too many links are displayed the graph can become overwhelming.</string>
+	<string name="prefTitleKeepOpen">Keep Open</string>
+	<string name="prefSummaryKeepOpen">The number of open nodes. When you open more nodes, the older ones will be closed automatically.</string>
+
+	<string name="prefCategoryImages">Images</string>
+	<string name="prefTitleShowImages">Show Images</string>
+	<string name="prefSummaryShowImages">Show images as nodes. Images may take some time to load.</string>
+	<string name="prefTitleMaxImageCount">Maximal Image Count</string>
+	<string name="prefSummaryMaxImageCount">The maximal number of images of a node displayed. If too many images are displayed the graph can become overwhelming.</string>
+
+	<string name="prefCategoryStyle">Style</string>
+	<string name="prefTitleTextSize">Text Size</string>
+	<string name="prefSummaryTextSize">The size of the text in the nodes.</string>
+	<string name="prefTitleVibrate">Vibrate</string>
+	<string name="prefSummaryVibrate">Confirm user interactions by vibrating.</string>
+	
+	<string name="prefCategoryLayout">Layout</string>
+	<string name="prefTitleTimeout">Timeout</string>
+	<string name="prefSummaryTimeout">Time after which the layouting will stop. Stopping the layouting sooner reduces battery drain but may prevent it from finding the optimal solution.</string>
+	<string name="prefTitleNodeRepulsion">Node Repulsion</string>
+	<string name="prefSummaryNodeRepulsion">Force of repulsion between nodes.</string>
+	<string name="prefTitleConnectionAttraction">Connection Attraction</string>
+	<string name="prefSummaryConnectionAttraction">Force of attraction between connected nodes.</string>
+	<string name="prefTitleDamping">Damping</string>
+	<string name="prefSummaryDamping">How strong the node movement is damped.</string>
+	<string name="prefTitleSpeed">Speed</string>
+	<string name="prefSummarySpeed">Speed of the layout. On slower phones high speed can lead to jittery layout.</string>
+
+    <string-array name="languageNames">
+    	<item>English</item>
+    	<item>Deutsch</item>
+    	<item>Français</item>
+    	<item>Español</item>
+    	<item>Portugues</item>
+    	<item>Italiano</item>
+    	<item>Русский</item>
+    	<item>עברית</item>
+    	<item>日本語</item>
+    	<item>中文</item>
+    	<item>한국어</item>
+    </string-array>
+
+    <string-array name="languages">
+    	<item>en</item>
+    	<item>de</item>
+    	<item>fr</item>
+    	<item>es</item>
+    	<item>pt</item>
+    	<item>it</item>
+    	<item>ru</item>
+    	<item>he</item>
+    	<item>ja</item>
+    	<item>zh</item>
+    	<item>ko</item>
+    </string-array>
+
+    <string-array name="simulationTimeoutNames">
+    	<item>5 seconds</item>
+    	<item>10 seconds</item>
+    	<item>30 seconds</item>
+    	<item>1 minute</item>
+    </string-array>
+    
+    <string-array name="simulationTimeouts">
+    	<item>5</item>
+    	<item>10</item>
+    	<item>30</item>
+    	<item>60</item>
+    </string-array>
+    
+    <string-array name="keepOpenCounts">
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+    	<item>5</item>
+    	<item>6</item>
+    	<item>7</item>
+    	<item>8</item>
+    </string-array>
+
+    <string-array name="maxChildrenCounts">
+    	<item>10</item>
+    	<item>20</item>
+    	<item>30</item>
+    	<item>40</item>
+    	<item>50</item>
+    	<item>60</item>
+    	<item>70</item>
+    	<item>80</item>
+    	<item>90</item>
+    	<item>100</item>
+    	<item>1000</item>
+    </string-array>
+
+    <string-array name="maxImageCounts">
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+    	<item>5</item>
+    	<item>6</item>
+    	<item>7</item>
+    	<item>8</item>
+    	<item>9</item>
+    	<item>10</item>
+    	<item>20</item>
+    	<item>30</item>
+    </string-array>
+
+    <string-array name="textSizes">
+    	<item>4</item>
+    	<item>6</item>
+    	<item>8</item>
+    	<item>10</item>
+    	<item>12</item>
+    	<item>14</item>
+    	<item>16</item>
+    	<item>18</item>
+    	<item>20</item>
+    	<item>22</item>
+    	<item>24</item>
+    </string-array>
+
+    <string-array name="imageThresholdSizes">
+    	<item>0</item>
+    	<item>16</item>
+    	<item>32</item>
+    	<item>64</item>
+    	<item>128</item>
+    	<item>256</item>
+    </string-array>
+
+
+    <string-array name="repulsionLevelNames">
+    	<item>Weak</item>
+    	<item>Normal</item>
+    	<item>Strong</item>
+    </string-array>
+    
+    <string-array name="repulsionLevels">
+    	<item>150</item>
+    	<item>200</item>
+    	<item>300</item>
+    </string-array>
+    
+    <string-array name="attractionLevelNames">
+    	<item>Weak</item>
+    	<item>Normal</item>
+    	<item>Strong</item>
+    </string-array>
+    
+    <string-array name="attractionLevels">
+    	<item>0.050</item>
+    	<item>0.055</item>
+    	<item>0.060</item>
+    </string-array>
+    
+    <string-array name="dampingLevelNames">
+    	<item>Very Weak (Slower)</item>
+    	<item>Weak (Slow)</item>
+    	<item>Normal</item>
+    	<item>Strong (Fast)</item>
+    	<item>Very Strong (Faster)</item>
+    </string-array>
+        
+    <string-array name="dampingLevels">
+    	<item>0.95</item>
+    	<item>0.90</item>
+    	<item>0.85</item>
+    	<item>0.80</item>
+    	<item>0.75</item>
+    </string-array>
+
+    <string-array name="speedLevelNames">
+    	<item>Very Slow</item>
+    	<item>Slow</item>
+    	<item>Normal</item>
+    	<item>Fast</item>
+    	<item>Very Fast</item>
+    </string-array>
+        
+    <string-array name="speedLevels">
+    	<item>0.0005</item>
+    	<item>0.001</item>
+    	<item>0.002</item>
+    	<item>0.004</item>
+    	<item>0.008</item>
+    </string-array>
+
+</resources>

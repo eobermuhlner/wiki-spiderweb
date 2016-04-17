@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_main_load"
+        android:title="@string/menuLoad"
+        android:icon="@drawable/ic_menu_load"
+        />
+
+    <item android:id="@+id/menu_main_save"
+        android:title="@string/menuSave"
+        android:icon="@drawable/ic_menu_save"
+        />
+
+    <item android:id="@+id/menu_main_manage"
+        android:title="@string/menuManage"
+        android:icon="@drawable/ic_menu_manage"
+        />
+
+    <item android:id="@+id/menu_main_goto"
+        android:title="@string/menuGoto"
+        android:alphabeticShortcut="g"
+        android:icon="@drawable/ic_menu_search"
+        />
+
+    <item android:id="@+id/menu_main_settings"
+        android:title="@string/menuSettings"
+        android:alphabeticShortcut="s"
+        android:icon="@drawable/ic_menu_preferences"
+        />
+
+    <item android:id="@+id/menu_main_help"
+        android:title="@string/menuHelp"
+        android:alphabeticShortcut="h"
+        android:icon="@drawable/ic_menu_help"
+        />
+</menu>

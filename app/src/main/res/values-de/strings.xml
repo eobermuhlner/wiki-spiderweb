@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wiki Spiderweb</string>
+    <string name="search_hint">Wiki Spiderweb Durchsuchen</string>
+    
+   	<string name="help_file">help-de.html</string>
+    
+    <string name="no_license">Sie scheinen keine gültige Lizenz für diese Applikation zu haben. Falls sie doch eine Lizenz erworben haben, kontaktieren sie bitte den Hersteller.</string>
+    <string name="licensing_error">Ein Problem mit dem Lizenzierungsserver verhindert leider die Überprüfung ihrer Lizenz. Versuchen sie es bitte später wieder.\nFalls das Problem weiterhin auftritt kontaktieren sie bitte den Hersteller.\nLizenz Fehler: %1$s</string>
+    <string name="trial_message">Dies ist die Testversion von Wiki Spiderweb.\n\nEinige Funktionen stehen nur in der bezahlten Version zur Verfügung.\n\nWenn ihnen diese Applikation gefällt, gehen sie doch bitte zum Android Market um die vollständige Version zu installieren.</string>
+    <string name="trial_function">Diese Funktion steht in der Testversion nicht zur Verfügung.</string>
+    <string name="new_version_message">Neues in Version 3.0\n\n- Gratis version hat die volle Funktionalität.\n- Verbindungen zu Wikipedia über https.\n- Vereinfachte Oberfläche.\nNeues in Version 2.1:\n\n- Anzahl Bilder in Einstellungen limitierbar.\n\nNeues in Version 2.0:\n\n- Bilder aus der Wikipedia werden als Knoten dargestellt.\n- Vorschaubilder in Suchresultaten.\n Besuchte Verbindungen werden blau.\n\nNeues in Version 1.5:\n\n- Zweimal schnell auf den leeren Raum tippen vergrössert oder verkleinert das Spinnennetz bis es völlig auf dem Bildschirm Platz hat.\n- Verbesserte Zwei-Finger Bewegung vermeidet Sprünge.\n- Hilfe funktioniert wieder.\n- Antippen eines Links in der Wikipedia Vorschau funktioniert wieder.</string>
+    
+    <string name="helpFile">help-de.html</string>
+    
+    <string name="loading">Lade %s ...</string>
+	<string name="failedLoading">Die Seite konnte nicht geladen werden.\nÜberprüfen Sie bitte ihre Internet-Verbindung und probieren Sie es später noch einmal.</string>
+    
+ 	<string name="menuSettings">Einstellungen</string>
+    <string name="menuHelp">Hilfe</string>
+    <string name="menuGoto">Suche</string>
+    <string name="menuSave">Speichern</string>
+    <string name="menuLoad">Laden</string>
+    <string name="menuManage">Organisieren</string>
+
+    <string name="searchResultInitial">Geben Sie den Titel ein nach dem sie suchen wollen.</string>
+    <string name="searchResultStarted">Suche ...</string>
+    <string name="searchResult0">Die Suche lieferte keine Resultate.</string>
+    <string name="searchResult1">Die Suche lieferte 1 Resultat.</string>
+    <string name="searchResultN">Die Suche lieferte %d Resultate.</string>
+    <string name="searchResultError">Es konnten keine Resultate gelesen werden.</string>
+
+	<string name="prefCategoryWikipedia">Wikipedia</string>
+	<string name="prefTitleLinkServer">Link Server</string>
+	<string name="prefSummaryLinkServer">Benutze den Link Server anstatt Wikipedia Seiten zu laden und analysieren.</string>
+	<string name="prefTitleLanguage">Sprache</string>
+	<string name="prefSummaryLanguage">Die Sprache in der Wikipedia Seiten angezeigt werden.</string>
+	<string name="prefTitleUseCustomLanguage">Andere Sprache Verwenden</string>
+	<string name="prefSummaryUseCustomLanguage">Dies aktiviert die Verwendung des Sprachkürzels einer beliebigen Wikipedia Sprache.</string>
+	<string name="prefTitleCustomLanguage">Andere Sprache</string>
+	<string name="prefSummaryCustomLanguage">Sprachkürzel der Wikipedia Sprache die angezeigt wird. Dieses Kürzel wird nur verwendet, wenn \'Andere Sprache Verwenden\' eingeschaltet ist.</string>
+	<string name="prefTitleStartPage">Start Seite</string>
+	<string name="prefSummaryStartPage">Die Wikipedia Seite die beim Start angezeigt wird.</string>
+	<string name="prefTitleRememberLastPage">Letze Seite Speichern</string>
+	<string name="prefSummaryRememberLastPage">Die zuletzt angeklickte Seite wird als Start Seite gespeichert.</string>
+
+	<string name="prefCategoryHistory">History</string>
+	<string name="prefTitleMaxChildrenCount">Maximale Anzahl Links</string>
+	<string name="prefSummaryMaxChildrenCount">Die Anzahl der Links von einer Seite die als Knoten dargestellt wird. Die Grafik kann unübersichtlich werden wenn zu viele Knoten dargestellt werden.</string>
+	<string name="prefTitleKeepOpen">Offene Seiten</string>
+	<string name="prefSummaryKeepOpen">Die Anzahl der offenen Seiten. Wenn mehr Seiten geöffnet werden als hier eingestellt, schliessen sich ältere Seiten automatisch.</string>
+
+	<string name="prefCategoryImages">Images</string>
+	<string name="prefTitleShowImages">Bilder zeigen</string>
+	<string name="prefSummaryShowImages">Bilder werden als Knoten angezeigt. Das Laden der Bilder kann einige Zeit dauern.</string>
+	<string name="prefTitleMaxImageCount">Maximal Image Count</string>
+	<string name="prefSummaryMaxImageCount">The maximal number of images displayed. If too many images are displayed the graph can become overwhelming.</string>
+
+	<string name="prefCategoryStyle">Stil</string>
+	<string name="prefTitleTextSize">Text Grösse</string>
+	<string name="prefSummaryTextSize">Standard Text Grösse.</string>
+	<string name="prefTitleVibrate">Vibrieren</string>
+	<string name="prefSummaryVibrate">Interaktionen durch kurzes Vibrieren bestätigen.</string>
+
+	<string name="prefCategoryLayout">Gestaltung</string>
+	<string name="prefTitleTimeout">Plazierung</string>
+	<string name="prefSummaryTimeout">Zeit nach der die Seitenplazierung gestoppt wird. Kürzere Plazierung schont die Batterie.</string>
+	<string name="prefTitleNodeRepulsion">Abstossung</string>
+	<string name="prefSummaryNodeRepulsion">Abstossungskraft zwischen den Seiten.</string>
+	<string name="prefTitleConnectionAttraction">Anziehung</string>
+	<string name="prefSummaryConnectionAttraction">Anziehungskraft zwischen verbundenen Seiten.</string>
+	<string name="prefTitleDamping">Dämpfung</string>
+	<string name="prefSummaryDamping">Die Bewegungsdämpfung beim Plazieren der Seiten. Je stärker die Dämpfung ist, um so weniger schwingen die Seiten.</string>
+	<string name="prefTitleSpeed">Geschwindigkeit</string>
+	<string name="prefSummarySpeed">Geschwindigkeit der Plazierung. Auf langsameren Geräten kann eine zu hohe Geschwindigkeit zu einer unstabilen Plazierung führen.</string>
+
+    <string name="default_language">de</string>
+    <string name="default_startPage">Wikipedia</string>
+
+    <string-array name="simulationTimeoutNames">
+    	<item>5 Sekunden</item>
+    	<item>10 Sekunden</item>
+    	<item>30 Sekunden</item>
+    	<item>1 Minute</item>
+    </string-array>
+    
+    <string-array name="repulsionLevelNames">
+    	<item>Schwach</item>
+    	<item>Normal</item>
+    	<item>Stark</item>
+    </string-array>
+    
+    <string-array name="attractionLevelNames">
+    	<item>Schwach</item>
+    	<item>Normal</item>
+    	<item>Stark</item>
+    </string-array>
+    
+    <string-array name="dampingLevelNames">
+    	<item>Sehr Schwach</item>
+    	<item>Schwach</item>
+    	<item>Normal</item>
+    	<item>Stark</item>
+    	<item>Sehr Stark</item>
+    </string-array>
+        
+    <string-array name="speedLevelNames">
+    	<item>Sehr Langsam</item>
+    	<item>Langsam</item>
+    	<item>Normal</item>
+    	<item>Schnell</item>
+    	<item>Sehr Schnell</item>
+    </string-array>
+        
+</resources>

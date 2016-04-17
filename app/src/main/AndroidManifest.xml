@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ch.obermuhlner.android.wikibrowser.trial"
+      android:versionCode="7"
+      android:versionName="2.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+	<uses-permission android:name="android.permission.INTERNET" /> 
+	<uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+    	android:icon="@drawable/wiki_browser"
+    	android:label="@string/app_name">
+        
+        <activity
+        	android:name="ch.obermuhlner.android.wikibrowser.WikiBrowserActivity"
+            android:label="@string/app_name">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<!--
+		<activity
+			android:name="ch.obermuhlner.android.wikibrowser.SearchActivity"
+			android:label="@string/app_name">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+    	</activity>
+		-->
+		
+        <activity android:name="ch.obermuhlner.android.wikibrowser.ApplicationPreferencesActivity"/>
+        <activity android:name="ch.obermuhlner.android.wikibrowser.LoadGraphActivity"/>
+        <activity android:name="ch.obermuhlner.android.wikibrowser.SaveGraphActivity"/>
+        <activity android:name="ch.obermuhlner.android.wikibrowser.GotoActivity"/>
+        <activity android:name="ch.obermuhlner.android.lib.activity.HtmlHelpActivity"/>
+        
+    </application>
+</manifest>

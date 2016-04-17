@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ch.obermuhlner.android.lib.view.graph.GraphView
+        android:id="@+id/graphView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <!--
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <org.miscwidgets.widget.Panel
+            android:id="@+id/webSlidingDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            panel:content="@+id/webView"
+            panel:handle="@+id/webHandle">
+
+            <ImageView
+                android:id="@+id/webHandle"
+                android:layout_width="12dp"
+                android:layout_height="fill_parent"
+                android:background="#555" />
+
+            <WebView
+                android:id="@id/webView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </org.miscwidgets.widget.Panel>
+    </LinearLayout>
+    -->
+</FrameLayout>
+

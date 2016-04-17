@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/prefCategoryWikipedia">
+		<ListPreference
+			android:title="@string/prefTitleLanguage"
+			android:summary="@string/prefSummaryLanguage"
+			android:key="@string/pref_language"
+			android:defaultValue="@string/default_language"
+			android:entries="@array/languageNames"
+			android:entryValues="@array/languages" />
+		<CheckBoxPreference
+			android:title="@string/prefTitleUseCustomLanguage"
+			android:summary="@string/prefSummaryUseCustomLanguage"
+			android:key="@string/pref_useCustomLanguage"
+			android:defaultValue="false" />
+		<EditTextPreference
+			android:title="@string/prefTitleCustomLanguage"
+			android:summary="@string/prefSummaryCustomLanguage"
+			android:key="@string/pref_customLanguage"
+			android:defaultValue="@string/default_language" />
+		<EditTextPreference
+			android:title="@string/prefTitleStartPage"
+			android:summary="@string/prefSummaryStartPage"
+			android:key="@string/pref_startPage"
+			android:defaultValue="@string/default_startPage" />
+		<CheckBoxPreference
+			android:title="@string/prefTitleRememberLastPage"
+			android:summary="@string/prefSummaryRememberLastPage"
+			android:key="@string/pref_rememberLastPage"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/prefCategoryHistory">
+		<ListPreference
+			android:title="@string/prefTitleMaxChildrenCount"
+			android:summary="@string/prefSummaryMaxChildrenCount"
+			android:key="@string/pref_maxChildrenCount"
+			android:defaultValue="30"
+			android:entries="@array/maxChildrenCounts"
+			android:entryValues="@array/maxChildrenCounts" />
+		<ListPreference
+			android:title="@string/prefTitleKeepOpen"
+			android:summary="@string/prefSummaryKeepOpen"
+			android:key="@string/pref_keepOpen"
+			android:defaultValue="2"
+			android:entries="@array/keepOpenCounts"
+			android:entryValues="@array/keepOpenCounts" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/prefCategoryImages">
+		<CheckBoxPreference
+			android:title="@string/prefTitleShowImages"
+			android:summary="@string/prefSummaryShowImages"
+			android:key="@string/pref_showImages"
+			android:defaultValue="true" />
+		<ListPreference
+			android:title="@string/prefTitleMaxImageCount"
+			android:summary="@string/prefSummaryMaxImageCount"
+			android:key="@string/pref_maxImageCount"
+			android:defaultValue="5"
+			android:entries="@array/maxImageCounts"
+			android:entryValues="@array/maxImageCounts" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/prefCategoryStyle">
+		<ListPreference
+			android:title="@string/prefTitleTextSize"
+			android:summary="@string/prefSummaryTextSize"
+			android:key="@string/pref_textSize"
+			android:defaultValue="24"
+			android:entries="@array/textSizes"
+			android:entryValues="@array/textSizes" />
+		<CheckBoxPreference
+			android:title="@string/prefTitleVibrate"
+			android:summary="@string/prefSummaryVibrate"
+			android:key="@string/pref_vibrate"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/prefCategoryLayout">
+		<ListPreference
+			android:title="@string/prefTitleTimeout"
+			android:summary="@string/prefSummaryTimeout"
+			android:key="@string/pref_simulationTimeout"
+			android:defaultValue="10"
+			android:entries="@array/simulationTimeoutNames"
+			android:entryValues="@array/simulationTimeouts" />
+		<ListPreference
+			android:title="@string/prefTitleNodeRepulsion"
+			android:summary="@string/prefSummaryNodeRepulsion"
+			android:key="@string/pref_repulsionLevel"
+			android:defaultValue="200"
+			android:entries="@array/repulsionLevelNames"
+			android:entryValues="@array/repulsionLevels" />
+		<ListPreference
+			android:title="@string/prefTitleConnectionAttraction"
+			android:summary="@string/prefSummaryConnectionAttraction"
+			android:key="@string/pref_attractionLevel"
+			android:defaultValue="0.055"
+			android:entries="@array/attractionLevelNames"
+			android:entryValues="@array/attractionLevels" />
+		<ListPreference
+			android:title="@string/prefTitleDamping"
+			android:summary="@string/prefSummaryDamping"
+			android:key="@string/pref_dampingLevel"
+			android:defaultValue="0.85"
+			android:entries="@array/dampingLevelNames"
+			android:entryValues="@array/dampingLevels" />
+		<ListPreference
+			android:title="@string/prefTitleSpeed"
+			android:summary="@string/prefSummarySpeed"
+			android:key="@string/pref_speedLevel"
+			android:defaultValue="0.002"
+			android:entries="@array/speedLevelNames"
+			android:entryValues="@array/speedLevels" />
+	</PreferenceCategory>
+</PreferenceScreen>

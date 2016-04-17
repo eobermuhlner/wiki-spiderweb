@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="6dip">
+
+    <ImageView
+        android:id="@+id/searchResultIcon"
+
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginRight="6dip"
+
+        android:src="@drawable/ic_btn_search_go" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/searchResultTitle"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="My Application"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/searchResultDescription"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Simple application that shows how to use RelativeLayout"
+            android:textSize="14dip" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+
+        android:padding="6dip">
+
+        <ImageView
+            android:id="@+id/searchResultIcon"
+
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dip"
+
+            android:src="@drawable/ic_btn_search_go"
+            />
+
+        <TextView
+            android:id="@+id/searchResultDescription"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@id/searchResultIcon"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+
+            android:text="This is a long long long long long long long long long long long Description"
+            android:textSize="14dip"
+            />
+
+        <TextView
+            android:id="@+id/searchResultTitle"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@id/searchResultIcon"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/searchResultDescription"
+            android:layout_alignWithParentIfMissing="true"
+
+            android:text="Title"
+            android:textSize="20dip"
+            />
+
+    </RelativeLayout>
+     -->
+
